@@ -3,12 +3,14 @@
     [
         { "type": "ValidationTextBox", "name": "Username", "caption": "Username" },
         { "type": "ValidationTextBox", "name": "Password", "caption": "Password" },
-		{ "type": "Label", "label": "Refresh-Zeit in Minuten" },
-        { "type": "IntervalBox", "name": "Interval", "caption": "Minuten" },
+		{ "type": "ValidationTextBox", "name": "IP-Adresse", "caption": "IP-Adresse" },
+		{ "type": "ValidationTextBox", "name": "Port", "caption": "Port" },
+		//{ "type": "Label", "label": "Refresh-Zeit in Minuten" },
+        //{ "type": "IntervalBox", "name": "Interval", "caption": "Minuten" },
 		{ "type": "Label", "label": "Welche Kamera`s sollen überwacht werden werden?" },
 		{ "type": "CheckBox", "name": "Kamera Flur", "caption": "Kamera_Flur" },
 		{ "type": "CheckBox", "name": "Kamera Garage", "caption": "Kamera_Garage" },
-		{ "type": "CheckBox", "name": "Kamera Wohnzimmer", "caption": "Kamera_Wohnzimmer" },
+		{ "type": "CheckBox", "name": "Kamera Wohnzimmer", "caption": "Kamera_Wohnzimmer" }
 		
         
     ],
