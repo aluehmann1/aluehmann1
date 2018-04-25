@@ -1,7 +1,7 @@
 <?
-     include("php_gardena_mover_class.ips.php");
+     //include("php_gardena_mover_class.ips.php");
     // Klassendefinition
-    class GardenaSileno extends IPSModule {
+    //class GardenaSileno extends IPSModule {
 
  
         // Der Konstruktor des Moduls
@@ -17,28 +17,12 @@
         public function Create() {
             // Diese Zeile nicht löschen.
             parent::Create();
-            $this->RegisterPropertyString("Username", "Mail-Adresse bei Gardena"); 
-            $this->RegisterPropertyString("Password", "Password"); 
-			$this->RegisterPropertyInteger("Interval",5); 
-			$this->RegisterPropertyBoolean("Batterie_Ladestatus_B",false);
-			$this->RegisterPropertyBoolean("Batterie_Level_B",false);
-			$this->RegisterPropertyBoolean("Batterie_Status_B",false);
-			$this->RegisterPropertyBoolean("Funk_Qualitaet_B",false);
-			$this->RegisterPropertyBoolean("Funk_Status_B",false);
-			$this->RegisterPropertyBoolean("Funk_Staerke_B",false);
-			$this->RegisterPropertyBoolean("Geraet_Hersteller_B",false);
-			$this->RegisterPropertyBoolean("Geraet_Interne_Temperatur_B",false);
-			$this->RegisterPropertyBoolean("Geraet_Kategorie_B",false);
-			$this->RegisterPropertyBoolean("Geraet_letzte_Onlinezeit_B",false);
-			$this->RegisterPropertyBoolean("Geraet_Produktname_B",false);
-			$this->RegisterPropertyBoolean("Geraet_Serien_Nummer_B",false);
-			$this->RegisterPropertyBoolean("Geraet_sgtin_B",false);
-			$this->RegisterPropertyBoolean("Geraet_Version_B",false);
-			$this->RegisterPropertyBoolean("Status_aktuelle_Aktion_B",false);
-			$this->RegisterPropertyBoolean("Status_manuelle_Operation_B",false);
-			$this->RegisterPropertyBoolean("Status_Uhrzeit_naechster_Start_B",false);
-			$this->RegisterPropertyBoolean("Status_Ueberschriebene_Endzeit_B",false);
-			$this->RegisterPropertyBoolean("Status_Grund_B",false);
+            $this->RegisterPropertyString("Username", "Username"); 
+            $this->RegisterPropertyString("Password", "Password");
+			$this->RegisterPropertyString("IP-Adresse", "IP-Adresse");
+			$this->RegisterPropertyString("Port", "Port");
+			$this->RegisterPropertyBoolean("Kamera Flur",false);
+			
 			
 			
 			//Variablenprofil anlegen ($name, $ProfileType, $Suffix, $MinValue, $MaxValue, $StepSize, $Digits, $Icon)
