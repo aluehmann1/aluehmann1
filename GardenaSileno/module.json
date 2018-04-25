@@ -1,8 +1,8 @@
 {
-    "id": "{7a02fb49-35a2-4762-953c-44cedf58f2ad}",
-    "name": "GardenaSileno",
+    "id": "{83e2bf51-b0fb-4f69-9ca2-0ca1f5268238}",
+    "name": "Axel Kamera",
     "type": 3,
-    "vendor": "GardenaSileno",
+    "vendor": "Axel",
     "aliases":
     [
         "GardenaSileno",
@@ -12,5 +12,5 @@
     "parentRequirements": [],
     "childRequirements": [],
     "implemented": [],
-    "prefix": "GAR"
+    "prefix": "IPSAL"
 }
