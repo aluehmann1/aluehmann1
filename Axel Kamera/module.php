@@ -1,4 +1,5 @@
 <?
+	class Axel Kamera extends IPSModule
      //include("php_gardena_mover_class.ips.php");
     // Klassendefinition
     //class GardenaSileno extends IPSModule {
