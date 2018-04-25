@@ -1,0 +1,16 @@
+{
+    "id": "{7a02fb49-35a2-4762-953c-44cedf58f2ad}",
+    "name": "GardenaSileno",
+    "type": 3,
+    "vendor": "GardenaSileno",
+    "aliases":
+    [
+        "GardenaSileno",
+        "GardenaSileno+",
+        "GardenaMower"
+    ],  
+    "parentRequirements": [],
+    "childRequirements": [],
+    "implemented": [],
+    "prefix": "GAR"
+}
